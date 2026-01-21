@@ -1,0 +1,11 @@
+name: 'my_group'
+sourceId: '{{mygroup_source_id}}'
+metadata:
+  origin: 'cognite-toolkit'
+capabilities:
+  - projectsAcl:
+      actions:
+        - LIST
+        - READ
+      scope:
+        all: {}
